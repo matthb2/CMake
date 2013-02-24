@@ -37,7 +37,7 @@
 # layout, but this should cover all the standard ones.
 #
 set(CMAKE_SYSTEM_LIBRARY_PATH
-   /bgsys/drivers/toolchain/V1R1M0-2011_1208_2228/gnu-linux/powerpc64-bgq-linux/lib
+	/bgsys/drivers/ppcfloor/gnu-linux/powerpc64-bgq-linux/lib
 
 #These paths only found in early versions of the drivers
 #   /bgsys/drivers/ppcfloor/ppc64-rhel60/comm/xl/lib
