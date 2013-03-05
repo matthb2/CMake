@@ -45,6 +45,9 @@ set(CMAKE_SYSTEM_LIBRARY_PATH
 
 )
 
+set(_CMAKE_TOOLCHAIN_LOCATION /bgsys/drivers/ppcfloor/gnu-linux/bin/)
+set(_CMAKE_TOOLCHAIN_PREFIX "powerpc64-bgq-linux-")
+
 find_path(BGQ_LIBSPI_PATH NAMES libSPI.a libSPI_cnk.a HINTS /bgsys/drivers/ppcfloor/ppc64-rhel60/spi/lib /bgsys/drivers/ppcfloor/spi/lib)
 
 list(APPEND CMAKE_SYSTEM_LIBRARY_PATH ${BGQ_LIBSPI_PATH})
